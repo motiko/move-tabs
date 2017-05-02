@@ -1,0 +1,35 @@
+{
+  "version": "0.0.0",
+  "name": "Move Tabs",
+  "short_name": "Move Tabs",
+  "manifest_version": 2,
+  "description": "Move tabs around",
+  "author": "Moti Korets",
+  "icons": {
+    "16": "img/128.b.png",
+    "48": "img/128.b.png",
+    "128": "img/128.b.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [ "storage", "tabs" ],
+  "content_security_policy": "default-src 'self'; script-src 'self' https://ssl.google-analytics.com;",
+  "commands":{
+    "move-left": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+Left",
+              "mac": "Command+Shift+Left"
+            },
+            "description": "Move tab to the left"
+          },
+    "move-right": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+Right",
+              "mac": "Command+Shift+Right"
+            },
+            "description": "Move tab to the right"
+          }
+  }
+}
