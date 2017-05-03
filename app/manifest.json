@@ -30,6 +30,13 @@
               "mac": "Command+Shift+Right"
             },
             "description": "Move tab to the right"
+          },
+    "move-one": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+1",
+              "mac": "Command+Shift+1"
+            },
+            "description": "Move tab to first spot"
           }
   }
 }
