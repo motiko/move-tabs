@@ -18,25 +18,32 @@
   "content_security_policy": "default-src 'self'; script-src 'self' https://ssl.google-analytics.com;",
   "commands":{
     "move-left": {
-            "suggested_key": {
-              "default": "Ctrl+Shift+Left",
-              "mac": "Command+Shift+Left"
-            },
-            "description": "Move tab to the left"
-          },
+      "suggested_key": {
+        "default": "Ctrl+Shift+Comma",
+        "mac": "Command+Shift+Comma"
+      },
+      "description": "Move tab to the left"
+    },
     "move-right": {
-            "suggested_key": {
-              "default": "Ctrl+Shift+Right",
-              "mac": "Command+Shift+Right"
-            },
-            "description": "Move tab to the right"
-          },
-    "move-one": {
-            "suggested_key": {
-              "default": "Ctrl+Shift+1",
-              "mac": "Command+Shift+1"
-            },
-            "description": "Move tab to first spot"
-          }
+      "suggested_key": {
+        "default": "Ctrl+Shift+Period",
+        "mac": "Command+Shift+Period"
+      },
+      "description": "Move tab to the right"
+    },
+    "move-first": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1",
+        "mac": "Command+Shift+1"
+      },
+      "description": "Move tab to the first spot"
+    },
+    "move-last": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+9",
+        "mac": "Command+Shift+9"
+      },
+      "description": "Move tab to the last"
+    }
   }
 }
