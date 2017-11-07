@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "Move Tabs",
   "short_name": "Move Tabs",
   "manifest_version": 2,
@@ -14,20 +14,19 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": [ "storage", "tabs" ],
-  "content_security_policy": "default-src 'self'; script-src 'self' https://ssl.google-analytics.com;",
+  "permissions": ["tabs" ],
   "commands":{
     "move-left": {
       "suggested_key": {
         "default": "Ctrl+Shift+Left",
-        "mac": "MacCtrl+Shift+Left"
+        "mac": "Cmd+Shift+Left"
       },
       "description": "Move tab to the left"
     },
     "move-right": {
       "suggested_key": {
         "default": "Ctrl+Shift+Right",
-        "mac": "MacCtrl+Shift+Right"
+        "mac": "Cmd+Shift+Right"
       },
       "description": "Move tab to the right"
     },
